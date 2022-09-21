@@ -1,0 +1,26 @@
+{
+  "name": "nft-stacking-contract",
+  "version": "1.0.0",
+  "description": "It is the implementation of nft stacking ERC20 contract. There are 2 implementation versions in with two different whitelisting techniques.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tech-worm/nft-stacking-contract.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tech-worm/nft-stacking-contract/issues"
+  },
+  "homepage": "https://github.com/tech-worm/nft-stacking-contract#readme",
+  "dependencies": {
+    "@nomiclabs/hardhat-etherscan": "^3.1.0",
+    "@nomiclabs/hardhat-waffle": "^2.0.3",
+    "@openzeppelin/contracts": "^4.7.3",
+    "hardhat": "^2.11.2"
+  }
+}
